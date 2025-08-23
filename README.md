@@ -1,4 +1,38 @@
-# MY-Portfolio-Web-Application
-Creating a portfolio web application using HTML, CSS, JavaScript, and Bootstrap involves building a static website where you structure your content with HTML, style it with CSS, and enhance interactivity using JavaScript. Bootstrap, a CSS framework, provides pre-designed components and responsive layouts to streamline the design process and ensure your portfolio looks good on various devices. This approach focuses on front-end technologies to showcase your work visually and interactively.
-# OUTPUT
-![Image](https://github.com/user-attachments/assets/80b5d063-ad32-43d6-b81d-11762a0760bd)
+# 🌐 Personal Portfolio Website  
+
+This is my **personal portfolio website**, built to showcase my skills, projects, and experiences as a developer.  
+It serves as a central hub where recruiters, collaborators, and peers can learn more about me and explore my work.  
+
+---
+
+## 📸 Screenshots  
+(Add screenshots or a live demo GIF of your portfolio here)  
+
+---
+
+## ✨ Features  
+- 🏠 **Home Section** – A welcoming introduction with name, title, and call-to-action buttons.  
+- 👩‍💻 **About Section** – Brief bio, skills, and career goals.  
+- 💼 **Projects Section** – Showcasing featured projects with links to GitHub/Live Demo.  
+- 📚 **Skills Section** – Highlighting technical skills and tools.  
+- 📩 **Contact Section** – Contact form or direct links to email/socials.  
+- 📱 **Responsive Design** – Works smoothly across all devices (desktop, tablet, mobile).  
+
+---
+
+## 🛠️ Tech Stack  
+- **HTML5** – Structure of the website  
+- **CSS3 / TailwindCSS / Bootstrap** – Styling and responsive design  
+- **JavaScript** – Interactivity and animations  
+- *(Optional)* **React.js / Next.js** – For a dynamic and scalable portfolio  
+
+---
+
+## 🎯 Learning Outcomes  
+- Built a **professional personal website** from scratch.  
+- Practiced **responsive web design** and UI/UX principles.  
+- Learned how to **deploy a website** using GitHub Pages / Netlify / Vercel.  
+
+---
+
+

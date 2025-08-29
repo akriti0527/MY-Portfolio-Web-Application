@@ -1,158 +1,620 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Akriti Sharma- Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akriti Sharma - Web Developer</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="C:/Users/hp/Downloads/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
 </head>
-<body>
- <!-- Navigation Bar -->
-    <nav>
-        <div class="logo">
-            <img src="name-removebg-preview.png" height="350px" width="550px"; style="margin-top: 9px;" alt="logo" >
-        </div>
-        
-           <div class="navigation">
-           <ul>
-                 <li><a href="#about">About</a></li>
-                 <li><a href="#projects">Projects</a></li>
-                 <li><a href="#skills-section">Skills</a></li>
-                 <li><a href="#contact">Contact</a></li> 
-            </ul>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Akriti Sharma</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Certificate</a>
+          </li>
+
+          <li>
+            <a href="resume.pdf" class="btn btn-primary">Download CV</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
 
 
-           </div> 
-        
-    </nav>
 
-    <!-- Hero Section -->
-    <header id="home">
-        <div class="hero-content">
-            <div class="img">
-                <img src="WhatsApp_my_pic-removebg-preview.png">
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="https://images.pexels.com/photos/16787281/pexels-photo-16787281/free-photo-of-a-woman-working-on-laptop.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <div class="elem elem-1">
+              <p class="elem-title">3</p>
+
+              <p class="elem-text">Years of Success</p>
             </div>
-            <div class="intro">
-               <pre><h1>Hi, I'm <b style="color: #FE5D26">Akriti Sharma</b>.</h1></pre> 
-                <pre><p>Web Develper | Graphic Designer | Problem Solver</p></pre>
-            </div>
-            
-        </div>
-    </header>
 
-    <!-- About Section -->
-     <div class="section">
-        <section id="about">
-            <h2>About Me</h2>
-            <p> A creative and dedicate BCA undergraduate with a passion for web design
+            <div class="elem elem-2">
+              <p class="elem-title">5+</p>
+
+              <p class="elem-text">Projects Completed</p>
+            </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
+            </div>
+
+            <img src="https://github.com/codewithsadee/portfolio/blob/master/assets/images/rotate-img.png?raw=true" width="169" height="172" alt="I'm developer from New York"
+              class="rotate-img">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>Akriti Sharma</strong> Full-Stack Developer 
+            </h2>
+
+            <p class="hero-text">
+             Web Develper | Graphic Designer | Problem Solver
+            </p>
+
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">Get in Touch</a>
+
+              <a href="#about" class="btn">About Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8-GXmLmWhJunkRLah8vM9hgXOclIqIIdQQg&s" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8-GXmLmWhJunkRLah8vM9hgXOclIqIIdQQg&s" width="800" height="717" loading="lazy" alt="Ethan's Photo"
+              class="abs-img">
+
+            <div class="abs-icon abs-icon-1">
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-2">
+              <ion-icon name="logo-javascript"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <ion-icon name="logo-angular"></ion-icon>
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Developer</p>
+
+            <h2 class="h2 section-title">I Develop Application that Help People</h2>
+
+            <p class="section-text">
+             A creative and dedicate BCA undergraduate with a passion for web design
                 and graphic design. Seeking opportunities to apply skills in designing
                 innovative and user-friendly  websites and graphics. adept at managing
                 multiple projects simultaneously with a focus on delivering high-quality
                 results. Experienced in freelancing, providing design services to clients and
-                collaborating effectively to meet their requirements.</p><br>
-                <p>A dynamic BCA graduate with a strong foundation in computer applications, complemented by a keen interest 
+                collaborating effectively to meet their requirements.
+            </p>
+
+            <p class="section-text">
+             A dynamic BCA graduate with a strong foundation in computer applications, complemented by a keen interest 
                   in web and graphic design, as well as Python programming. Combining technical proficiency with creative flair,
                   My aim to develop visually appealing and user-friendly digital experiences. 
                   Eager to contribute to innovative projects that merge functionality with aesthetics.
-                </p>
-        </section>
-     </div>
-    
-<!-- skill Section -->
-   <section id="skills-section" class="skills-section">
-    <h2 class="skills-title">My Skills</h2>
-    <div class="skills-container">
-      
-      <!-- Skill 1 -->
-      <div class="skill" style="--percentage: 216deg;">
-        <div class="outer-circle" style="--percentage: 216deg;">
-          <div class="inner-circle">75%</div>
-        </div>
-        <div class="skill-label">React</div>
-      </div>
+            </p>
 
-      <!-- Skill 2 -->
-      <div class="skill" style="--percentage: 266deg;">
-        <div class="outer-circle" style="--percentage: 266deg;">
-          <div class="inner-circle">85%</div>
-        </div>
-        <div class="skill-label">JavaScript</div>
-      </div>
+            <a href="#portfolio" class="btn btn-primary blue">View My Projects</a>
 
-      <!-- Skill 3 -->
-      <div class="skill" style="--percentage: 288deg;">
-        <div class="outer-circle" style="--percentage: 288deg;">
-          <div class="inner-circle">90%</div>
-        </div>
-        <div class="skill-label">CSS</div>
-      </div>
+          </div>
 
-      <!-- Skill 4 -->
-      <div class="skill" style="--percentage: 324deg;">
-        <div class="outer-circle" style="--percentage: 324deg;">
-          <div class="inner-circle">95%</div>
         </div>
-        <div class="skill-label">HTML</div>
-      </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Projects</p>
+
+          <h2 class="h2 section-title">My Amazing Works</h2>
+
+          <p class="section-text">
+           Here are my few projects that I created regarding my skils in Web Development
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="https://github.com/akriti0527/Amazon-clone-UI" class="portfolio-card" style="background-image: url('https://github.com/codewithsadee/portfolio/blob/master/assets/images/portfolio-1.jpg?raw=true')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Amazon web UI clone</p>
+
+                  <h3 class="h3 card-title">A pseudo front-end Amazon web page using HTML and CSS mimics the visual structure of Amazon’s homepage
+                 without functionality.</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/akriti0527/Canvas-Web-page-clone-UI" class="portfolio-card" style="background-image: url('https://github.com/codewithsadee/portfolio/blob/master/assets/images/portfolio-2.jpg?raw=true')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Canvas UI clone</p>
+
+                  <h3 class="h3 card-title">Creating a front-end web page of an e-learning platform like Canvas using HTML and CSS involves designing
+                 the layout 
+                and appearance without adding dynamic functionality.</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/akriti0527/INTERACTIVE-QUIZ-APPLICATION" class="portfolio-card" style="background-image: url('https://github.com/codewithsadee/portfolio/blob/master/assets/images/portfolio-3.jpg?raw=true')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">INTERACTIVE-QUIZ-APPLICATION</p>
+
+                  <h3 class="h3 card-title">A QUIZ APPLICATION WHERE USERS CAN ANSWER QUESTIONS AND RECEIVE INSTANT FEEDBACK.</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+           
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+          <p class="section-text">
+           Here are some skills that I enhance during my WEB DeVELOPMENT journey
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">CSS</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">React</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">MongoDB</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">Python</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">PHP</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">JavaScript</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+
+              <form action="" class="contact-form">
+
+                <input type="text" name="name" placeholder="Name" required class="contact-input">
+
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
+
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+
+                <button type="submit" class="btn-submit">Submit Message</button>
+
+              </form>
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      Patna,Bihar
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:hello@ethan.com" class="contact-item-link">akritisharma1605@gmail.com</a>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+1234567890" class="contact-item-link">+123 456 7890</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Certificte
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">My Experience&Work </p>
+
+          <h2 class="h2 section-title">My Certificate</h2>
+
+          <p class="section-text">
+           Here are my few Certificate that I received regarding my Web development journey
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="https://www.linkedin.com/posts/akriti-sharma-8a09a430b_web-intern-html-activity-7337827951943602178-7HdE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE79pfgBETZ4M8D4JY7wjz4JP2ASsKzOauo">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E22AQGfxZr6Zk0O-w/feedshare-shrink_800/B4EZdUzoeAH0Ag-/0/1749474512274?e=1759363200&v=beta&t=jM0Uh6XZGYKug_JnvocZMoRdASG0reimXi0FQE8HVE8" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Web Development</a>
+
+                <h3 class="card-title">
+                  <a href="#">Web Development Internship Completion Certificate by TechSonix IT Solution Company</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="https://www.linkedin.com/posts/akriti-sharma-8a09a430b_front-internship-html5-activity-7332613642871336960-wKxf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE79pfgBETZ4M8D4JY7wjz4JP2ASsKzOauo">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E22AQEaUKdh5pz_dw/feedshare-shrink_800/B4EZcKtPcUHsAg-/0/1748231324089?e=1759363200&v=beta&t=aTiIAH2UG19oxA7Le7EEEW5N3ohCtcYvjxPyWccHjDU" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Front-end Web Development Certificate</a>
+
+                <h3 class="card-title">
+                  <a href="#">Front-end Web Development Internship Certificate by CodTech IT</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="https://www.linkedin.com/posts/akriti-sharma-8a09a430b_internship-completion-certificate-activity-7324706373718454272-3Tq7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE79pfgBETZ4M8D4JY7wjz4JP2ASsKzOauo">
+                    <img src="https://media.licdn.com/dms/image/v2/D5622AQEhL-EZDWJa7Q/feedshare-shrink_800/B56Zgctfb7HMAg-/0/1752828345336?e=2147483647&v=beta&t=hNfZ2yAlgLmm_XkaeEifnWYUik-4My1iJ-LarPFhqYo" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">UI/UX Development Certificate</a>
+
+                <h3 class="card-title">
+                  <a href="#">UI/UX Internship Certificate by Codec Technologies pvt.</a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2025 <a href="#" class="copyright-link">Akriti Sharma</a>. All Rights Reseverd
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Terms & Condition</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
 
     </div>
-  </section>
+  </footer>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project projbox1">
-           <img src="projectFirst.jpeg" alt="Project 1" height="250" width="116">
-            <h3>Project 1</h3>
-            <p>A pseudo front-end Amazon web page using HTML and CSS mimics the visual structure of Amazon’s homepage
-                 without functionality.  
-                This type of project is ideal for practicing front-end skills and understanding website layout and 
-                styling.</p>
-                <a href="https://github.com/akriti0527/Amazon-clone-UI">LINK</a>
-        </div>
-        <div class="project">
-           <img src="project2.jpeg" alt="Project 2" height="245" width="116">
-            <h3>Project 2</h3>
-            <p>Creating a front-end web page of an e-learning platform like Canvas using HTML and CSS involves designing
-                 the layout 
-                and appearance without adding dynamic functionality.</p>
-                <a href="https://github.com/akriti0527/Canvas-Web-page-clone-UI">LINK</a>
-        </div>
-        <div class="project">
-           <img src="project3.jpeg" alt="Project 3" height="250" width="116">
-            <h3>Project 3</h3>
-            <p>Creating an e-learning web page with courses and a dashboard 
-              using HTML and CSS involves structuring and styling a user-friendly interface that supports online education.</p>
-                 <a href="https://github.com/akriti0527/E-LEARNING-PLATFORM-UI">LINK</a>
-        </div>
-    </section>
- 
 
-    <!-- Contact Section -->
-     <div class="contact">
-        <div class="cont-box">
-           <section id="contact">
-            <h2>Contact Me</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>  
-        </div>
-     </div>
-    
 
-    <!-- Footer -->
-     <div class="foot">
- <footer>
-        <p>&copy; 2025 Akriti Sharma. All rights reserved.</p>
-    </footer>
-   
-     </div>
-  
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="index.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
 

@@ -32,7 +32,8 @@ It serves as a central hub where recruiters, collaborators, and peers can learn 
 - Built a **professional personal website** from scratch.  
 - Practiced **responsive web design** and UI/UX principles.  
 - Learned how to **deploy a website** using GitHub Pages / Netlify / Vercel.  
-
+# OUTPUT
+![Image](https://github.com/user-attachments/assets/b9c61bab-4180-4647-a59d-c8ce604bf915)
 ---
 
 

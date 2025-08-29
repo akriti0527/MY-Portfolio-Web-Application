@@ -6,9 +6,7 @@ It serves as a central hub where recruiters, collaborators, and peers can learn 
 ---
 
 ## 📸 Screenshots  
-(Add screenshots or a live demo GIF of your portfolio here)  
-
----
+![Image](https://github.com/user-attachments/assets/b9c61bab-4180-4647-a59d-c8ce604bf915)
 
 ## ✨ Features  
 - 🏠 **Home Section** – A welcoming introduction with name, title, and call-to-action buttons.  
@@ -32,8 +30,3 @@ It serves as a central hub where recruiters, collaborators, and peers can learn 
 - Built a **professional personal website** from scratch.  
 - Practiced **responsive web design** and UI/UX principles.  
 - Learned how to **deploy a website** using GitHub Pages / Netlify / Vercel.  
-# OUTPUT
-![Image](https://github.com/user-attachments/assets/b9c61bab-4180-4647-a59d-c8ce604bf915)
----
-
-
